@@ -1,6 +1,7 @@
 import math
 import random
 
+#
 
 emptyCell = 0
 PLAYER = 1
