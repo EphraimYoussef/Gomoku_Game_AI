@@ -1,0 +1,20 @@
+# Ignore Python cache and bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore PyCharm project settings
+.idea/
+
+# Ignore local virtual environment
+.venv/
+
+# Ignore environment/config files
+.env
+*.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore PDFs and docs (if not versioning them)
+*.pdf
