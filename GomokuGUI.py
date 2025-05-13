@@ -3,7 +3,6 @@ from GomokuGame import *
 import threading
 import winsound
 import time
-
 class CustomAlert(ctk.CTkToplevel):
     def __init__(self, parent, title, message):
         winsound.MessageBeep()
