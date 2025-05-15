@@ -45,7 +45,7 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your‑username/gomoku‑ai‑gui.git
+   git clone https://github.com/EphraimYoussef/gomoku‑ai‑gui.git
    cd gomoku‑ai‑gui
    ```
 
