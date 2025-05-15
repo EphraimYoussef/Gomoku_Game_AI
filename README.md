@@ -128,5 +128,5 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 
 
 > Enjoy playing Gomoku with AI!
-> Created by ## Ephraim / Kadry / Ramez / Omar / Abdallah
+> Created by Ephraim / Kadry / Ramez / Omar / Abdallah
 — Happy coding!
