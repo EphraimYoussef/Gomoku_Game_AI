@@ -112,7 +112,23 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 ### Example with Board size = 8 * 8 and AI Depth = 2
 https://github.com/user-attachments/assets/5706cda7-692d-4435-9f9c-9d09ab61cf26
 
+## Contact
 
+For further inquiries or collaboration, please contact:
+
+
+- **Ephraim Youssef**\
+[GitHub Profile](https://github.com/EphraimYoussef)
+- **Abdelrahman Kadry**\
+[GitHub Profile](https://github.com/Kadry-jr)
+- **Ramez Ragaay**\
+[GitHub Profile](https://github.com/RamezRagaay)
+- **Omar Ahmed**\
+[GitHub Profile](https://github.com/Omar-Badwilan)
+- **Abdallah Nassar**\
+[GitHub Profile](https://github.com/bodawy04)
+
+---
 
 > Enjoy playing Gomoku with AI!
 > Created by Ephraim / Kadry / Ramez / Omar / Abdallah
