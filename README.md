@@ -24,6 +24,8 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 * **Alerts & Feedback**: Pop‑up notifications with sound cues on win, draw, or game over.
 * **Threaded AI Play**: Non‑blocking AI computations to keep UI responsive.
 
+---
+
 ## Prerequisites
 
 * **Python 3.7+**
@@ -39,6 +41,8 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 > ```bash
 > python -m pip install --upgrade pip
 > ```
+
+---
 
 ## Installation
 
@@ -61,6 +65,8 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
    ```
 
 > The GUI will launch, allowing you to select board size, AI depth, and game mode.
+
+---
 
 ## Usage
 
@@ -94,6 +100,8 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 └── README.md          # This documentation
 ```
 
+---
+
 ## How It Works
 
 * **`GomokuGame.py`** encapsulates:
@@ -106,11 +114,13 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
   * Threaded AI loops to prevent UI freezing
   * Custom alert windows (`CustomAlert`) for in‑game notifications
 
-
+---
 
 ## Video
 ### Example with Board size = 8 * 8 and AI Depth = 2
 https://github.com/user-attachments/assets/5706cda7-692d-4435-9f9c-9d09ab61cf26
+
+---
 
 ## Contact
 
@@ -131,5 +141,3 @@ For further inquiries or collaboration, please contact:
 ---
 
 > Enjoy playing Gomoku with AI!
-> Created by Ephraim / Kadry / Ramez / Omar / Abdallah
-— Happy coding!
