@@ -89,9 +89,8 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 ## 🗂️ Project Structure
 
 ```text
-├── main.py            # Starts the CustomTkinter GUI (App + pages)
+├── GomokuGUI.py       # Starts the CustomTkinter GUI (App + pages)
 ├── GomokuGame.py      # Core game logic & AI implementations
-├── requirements.txt   # Python dependencies
 └── README.md          # This documentation
 ```
 
