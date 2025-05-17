@@ -108,22 +108,7 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
   * Threaded AI loops to prevent UI freezing
   * Custom alert windows (`CustomAlert`) for in‑game notifications
 
-## 🎯 Future Improvements
 
-* Cross‑platform sound/alert support (macOS/Linux)
-* Add networked multiplayer mode
-* Implement more advanced heuristics and AI (e.g., Monte Carlo Tree Search)
-* Theming and customization (dark/light mode)
-
-## 🤝 Contributing
-
-1. Fork the repo
-2. Create a feature branch: `git checkout -b feature/YourFeature`
-3. Commit your changes: \`git commit -m "Add new feature"
-4. Push to branch: `git push origin feature/YourFeature`
-5. Open a Pull Request
-
-*Pull requests are welcome! For major changes, please open an issue first to discuss.*
 
 
 
