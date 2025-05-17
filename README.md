@@ -100,7 +100,7 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 
   * `Gomoku` class for board state, move validation, win/draw detection
   * `minimax` (depth‑limited) and `alphaBeta` recursive algorithms with evaluation heuristics
-* **`main.py`** builds:
+* **`GomokuGUI.py`** builds:
 
   * A CustomTkinter `App` with **HomePage**, **PageOne** (Human vs Minimax), and **PageTwo** (AI vs AI)
   * Threaded AI loops to prevent UI freezing
