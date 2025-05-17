@@ -69,8 +69,7 @@ class Gomoku:
         return len(self.getValidMoves())
 
     def isDraw(self):
-
-        if any(emptyCell in row for row in self.board):
+        if self.freeCellsCounter() > 2:
             return False
         return not (self.checkWinner(PLAYER) or self.checkWinner(miniMaxAI) or self.checkWinner(AlphaBetaAI))
 
