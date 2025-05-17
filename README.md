@@ -45,20 +45,19 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/EphraimYoussef/gomoku‑ai‑gui.git
-   cd gomoku‑ai‑gui
-   ```
+   git clone https://github.com/EphraimYoussef/gomoku-ai-gui.git
+   cd gomoku-ai-gui
 
 2. **Install dependencies**
 
    ```bash
-   pip install -r requirements.txt
+   pip install customtkinter
    ```
 
 3. **Run the game**
 
    ```bash
-   python main.py
+   python GomokuGUI.py
    ```
 
 > The GUI will launch, allowing you to select board size, AI depth, and game mode.
