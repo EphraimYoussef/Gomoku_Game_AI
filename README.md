@@ -10,7 +10,7 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 
 ---
 
-## 🔧 Features
+## Features
 
 * **Interactive GUI**: Built with [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) for sleek widgets and theming.
 * **AI Algorithms**:
@@ -24,7 +24,7 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 * **Alerts & Feedback**: Pop‑up notifications with sound cues on win, draw, or game over.
 * **Threaded AI Play**: Non‑blocking AI computations to keep UI responsive.
 
-## 📦 Prerequisites
+## Prerequisites
 
 * **Python 3.7+**
 * **Windows** (for `winsound.MessageBeep`; cross‑platform support coming)
@@ -40,13 +40,13 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 > python -m pip install --upgrade pip
 > ```
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/EphraimYoussef/gomoku-ai-gui.git
-   cd gomoku-ai-gui
+   git clone https://github.com/EphraimYoussef/Gomoku_Game.git
+   cd Gomoku_Game
 
 2. **Install dependencies**
 
@@ -62,7 +62,7 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 
 > The GUI will launch, allowing you to select board size, AI depth, and game mode.
 
-## 🎮 Usage
+## Usage
 
 1. **Home Screen**:
 
@@ -86,7 +86,7 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```text
 ├── GomokuGUI.py       # Starts the CustomTkinter GUI (App + pages)
@@ -94,7 +94,7 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 └── README.md          # This documentation
 ```
 
-## 🔍 How It Works
+## How It Works
 
 * **`GomokuGame.py`** encapsulates:
 
@@ -107,6 +107,10 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
   * Custom alert windows (`CustomAlert`) for in‑game notifications
 
 
+
+## Video
+### Example with Board size = 8 * 8 and AI Depth = 2
+https://github.com/user-attachments/assets/5706cda7-692d-4435-9f9c-9d09ab61cf26
 
 
 
