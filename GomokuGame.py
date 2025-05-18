@@ -93,11 +93,11 @@ class Gomoku:
                             cntMax += 1
                         elif cell in opponents:
                             cntOpp += 1
-                    else:
-                        if cntMax > 0 and cntOpp == 0:
-                            score += weights.get(cntMax, 0)
-                        elif cntOpp > 0 and cntMax == 0:
-                            score -= weights.get(cntOpp, 0)
+                        else:
+                            if cntMax > 0 and cntOpp == 0:
+                                score += weights.get(cntMax, 0)
+                            elif cntOpp > 0 and cntMax == 0:
+                                score -= weights.get(cntOpp, 0)
         return score
 
     def minimax(self, depth, isMaximizing, depthLimit ,currrentPLayer =PLAYER):
@@ -110,8 +110,6 @@ class Gomoku:
             return self.evaluate(miniMaxAI), None
 
         moves = self.getValidMoves()
-        if depth >= self.freeCellsCounter():
-            return moves[self.randomFreeCellIndex()]
 
         bestMove = moves[0]
         if isMaximizing:
@@ -143,8 +141,6 @@ class Gomoku:
             return self.evaluate(AlphaBetaAI), None
 
         moves = self.getValidMoves()
-        if depth >= self.freeCellsCounter():
-            return moves[self.randomFreeCellIndex()]
 
         bestMove = moves[0]
         if isMaximizing:
