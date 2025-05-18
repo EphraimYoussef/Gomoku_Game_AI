@@ -69,7 +69,7 @@ class Gomoku:
         return len(self.getValidMoves())
 
     def isDraw(self):
-        if self.freeCellsCounter() > 2:
+        if self.freeCellsCounter() > 1:
             return False
         return not (self.checkWinner(PLAYER) or self.checkWinner(miniMaxAI) or self.checkWinner(AlphaBetaAI))
 
@@ -84,7 +84,7 @@ class Gomoku:
             for row in range(self.boardSize):
                 for col in range(self.boardSize):
                     cntMax, cntOpp = 0, 0
-                    for i in range(self.winCondition):
+                    for i in range(self.winCondition): # checking 5s in a row
                         r, c = row + dr * i, col + dc * i
                         if not (0 <= r < self.boardSize and 0 <= c < self.boardSize):
                             break
@@ -111,7 +111,7 @@ class Gomoku:
 
         moves = self.getValidMoves()
 
-        bestMove = moves[0]
+        bestMove = moves[self.randomFreeCellIndex()]
         if isMaximizing:
             maxEval = -math.inf
             for move in moves:
@@ -142,7 +142,7 @@ class Gomoku:
 
         moves = self.getValidMoves()
 
-        bestMove = moves[0]
+        bestMove = moves[self.randomFreeCellIndex()]
         if isMaximizing:
             maxEval = -math.inf
             for move in moves:
