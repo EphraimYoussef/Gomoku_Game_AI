@@ -184,7 +184,7 @@ def main():
     # game mode
     while True:
         try:
-            mode = int(input("Select mode: 1 - Human vs Minimax AI, 2 - Minimax AI vs AlphaBeta AI: "))
+            mode = int(input("Select mode: \n1 - Human vs Minimax AI\n2 - Minimax AI vs AlphaBeta AI: "))
             if mode not in (1, 2):
                 print("Please select 1 or 2.")
             else:
