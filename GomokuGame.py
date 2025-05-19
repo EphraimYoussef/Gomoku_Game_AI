@@ -60,10 +60,25 @@ class Gomoku:
         return True
 
     def getValidMoves(self):
-        return [(r, c)
-                for r in range(self.boardSize)
-                for c in range(self.boardSize)
-                if self.board[r][c] == emptyCell]
+        directions = [(-1, -1), (-1, 0), (-1, 1),
+                      (0, -1), (0, 1),
+                      (1, -1), (1, 0), (1, 1)]
+        valid_moves = set()
+
+        for r in range(self.boardSize):
+            for c in range(self.boardSize):
+                if self.board[r][c] != emptyCell:
+                    for dr, dc in directions:
+                        nr, nc = r + dr, c + dc
+                        if self.isValidMove(nr, nc):
+                            valid_moves.add((nr, nc))
+
+        if not valid_moves:
+            return [(r, c) for r in range(self.boardSize)
+                    for c in range(self.boardSize)
+                    if self.isValidMove(r, c)]
+
+        return list(valid_moves)
 
     def freeCellsCounter(self):
         return len(self.getValidMoves())
