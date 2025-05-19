@@ -117,7 +117,7 @@ A modern, customizable Gomoku (Five‑in‑a‑Row) game built in Python featuri
 ---
 
 ## Video
-### Example with Board size = 8 * 8 and AI Depth = 2
+### Example with Board size = 15 * 15 and AI Depth = 2
 https://github.com/user-attachments/assets/f8d5e951-6ba3-410d-951e-35712b97da67
 
 ---
