@@ -61,7 +61,7 @@ class Gomoku:
 
     def getValidMoves(self):
         directions = [(-1, -1), (-1, 0), (-1, 1),
-                      (0, -1), (0, 1),
+                      (0, -1),          (0, 1),
                       (1, -1), (1, 0), (1, 1)]
         valid_moves = set()
 
